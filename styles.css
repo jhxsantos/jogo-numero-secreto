@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+
+:root {
+    --font-family: 'Red Hat Mono', monospace;
+
+    --bg-color: #040D12;
+
+    --cor-primaria:   #183D3D;
+    --cor-secundaria: #5C8374;
+    --cor-terciaria:  #93B1A6;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--cor-secundaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 2rem;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 5rem;
+}
+
+.box {
+    border: 2px solid var(--cor-primaria);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.btn-jogar {
+    background: var(--cor-primaria);
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 5px;
+    color: var(--cor-secundaria);
+    font-size: 2em;
+    margin-top: 40px;
+    padding: 8px 15px;
+}
+
+.btn-jogar:hover {
+    background: var(--cor-terciaria);
+    color: var(--cor-primaria);
+}
+
+.btn-jogar:active {
+    background: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
